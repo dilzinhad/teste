@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <title>SVN X GIT - Controles de Versão</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,20 +23,32 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Comparação de Controles de Versão</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#O que é?">O que é?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+              <a class="nav-link js-scroll-trigger" href="#Curiosidade">Curiosidade</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#Ciclo básico de trabalho">Ciclo básico de trabalho</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Licença">Licença</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Características">Características</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Interface">Interface</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#Vantagens e Desvantagens">Vantagens e Desvantagens</a>
             </li>
           </ul>
         </div>
@@ -45,49 +57,142 @@
 
     <header class="bg-primary text-white">
       <div class="container text-center">
-        <h1>Welcome to Scrolling Nav</h1>
-        <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
+        <h1>Controladores de Versão:</h1>
+        <p class="lead"> É um sistema que registra as mudanças feitas em um arquivo ou um conjunto de arquivos ao longo do tempo de forma que você possa recuperar versões específicas.  </p>
       </div>
     </header>
 
-    <section id="about">
+    <section id="O que é?">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>About this page</h2>
-            <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-            <ul>
-              <li>Clickable nav links that smooth scroll to page sections</li>
-              <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-              <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-            </ul>
+            <h2><u>O que é?</u></h2>
+            <p class="lead"> <p><u>O Subversion</u> (SVN):</p> é um sistema de controle de versão centralizado que gerencia arquivos e diretórios controlando as alterações realizadas ao longo do tempo. Além disso, é possível recuperar versões anteriores ou visualizar o histórico de alterações. Tem como ponto forte a utilização em rede, possibilitando que vários usuários possam trabalhar colaborativamente.</p> 
+            <p>Permite que você recupere versões antigas de seus dados, ou que examine o histórico de suas alterações. É um sistema de caráter geral que pode ser usado para gerenciar quaisquer conjuntos de arquivos (código-fonte, arquivos de edição de vídeo, etc.).
+            </p>
+            <p><u>GIT</u>:</p>É um sistema de controle de versão distribuído. Atráves deles podemos desenvolver projetos na qual diversas pessoas podem contribuir simultaneamente no mesmo, editando e criando novos arquivos e permitindo que os mesmos possam existir sem o risco de suas alterações serem sobrescritas.
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services" class="bg-light">
+    <section id="Curiosidade" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Services we offer</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+            <h2><u>Curiosidade:</u>:</h2>
+            <p class="lead"><p><u>O Subversion</u> (SVN):</p>O subversion foi criado a partir das decorrências dos bugs e limitações do Concurrent Version System (CVS), assim a CollabNet optou por iniciar a construção do zero. Devido a isso, SVN começou a ser utilizada pelos os desenvolvedores para gerir seu próprio código-fonte em 31 de agosto de 2001.</p>
+            <p>O nome Subversion foi originalmente criado por Jim Bland, que junto com Karl Fogel, Collins-Sussman, Brian Behlendorf e Jason Robbins formaram o primeiro grupo de desenvolvedores do novo projeto.</p>
+            <p>Um marco importante para o SVN foi a integração com o Apache Software Foundation (ASF), que iniciou em 2009. No início de 2010, o Subversion foi totalmente adotado na família do ASF de projetos de nível superior, transferindo o projeto para http://subversion.apache.org, e foi rebatizado de "Apache Subversion".
+            <p><u>GIT</u>:</p>O desevolvimento do GIT teve inicio quando vários desenvolvedores do Kernal Linux resolveram deixar de usar o BitKeeper. Linus e a comunidade de desenvolvedores do Linux não ficaram satisfeitos com nenhuma das ferramentas que trabalhavam de forma descentralizada disponíveis naquela época, e optaram então por desenvolver a sua própria ferramenta de controle de versões.</p>
+            <p>Linus dizia que seria importante que essa nova ferramenta não trabalhasse de forma semelhante ao CVS, segundo ele, um exemplo de software mal projetado. Linus também afirmou que era impossível desenvolver um CVS de forma correta.</p>
+            <p>Outro ponto importante sobre o que deu origem ao GIT, é que a Linus declarou que a ferramenta deveria ser semelhante ao BitKeeper, no sentido de trabalhar de forma distribuída. Alto desempenhos e medidas de segurança contra corrompimento de arquivos também eram necessários.</p>
+            <p>Linus comandou o desenvolvimento do GIT até ele começar a ser utilizado por outros usuários com o conhecimento técnico avançado. A partir disso, Junio Humano assumiu a gerência do projeto. 
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="contact">
+    <section id="Ciclo básico de trabalho">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+            <h2><u>Ciclo Básico de Trabalho</u>:</h2>
+            <p class="lead"><p><u>O Subversion</u> (SVN):</p>• <b>Atualizar cópia de trabalho:</b> através do comando <em>svn update</em>, que traz as alterações de repositório para sua cópia de trabalho.</p> 
+            <p>• <b>Realizar alterações:</b> através dos comandos <em>svn add</em>, que adiciona arquivos, diretórios ou links simbólicos, <em>svn delete</em>, que exclui um item de uma cópia de trabalho ou do repositório, <em>svn move</em>, que move um arquivo ou diretório.</p>
+            <p>• <b>Verificar alterações:</b> através dos comandos <em>svn status</em>, que exibe informações sobre o estado de arquivos e diretórios na cópia de trabalho e <em>svn diff</em>, que exibe as diferenças entre duas revisões ou caminho.</p>
+            <p>• <b>Possivelmente desfazer algumas alterações:</b> com o comando <em>syn revert</em>, que desfaz todas as edições locais.</p>
+            <p>• <b>Resolver conflitos:</b> com os comandos <em>svn update</em>, que atualiza sai cópia de trabalho e <em>svn resolved</em>, que remove arquivos ou diretórios da cópia de trabalho do estado de “conflito”.
+            <p><u>GIT</u>:</p>• <b>Atualizar seu repositório e cópia de trabalho:</b> através do comando de <em>git fetch</em>, que faz o download de alterações do repositório desejado, seguido de um comando <em>git marge</em>, para mesclar al alterações baixadas com o seu repositório, ou através de comando <em>git pull</em>, que atualiza seu repositório e sua área de trabalho com as alterações de outro repositório.</p>
+            <p>• <b>Fazer alterações:</b> através dos comandos <em>git add</em>, que adiciona arquivos ao index, <em>git rm</em>, que exclui um item de uma cópia de trabalho ao do repositório e <em>git mv</em>, que move ou renomeia um arquivo ou diretório.</p>
+            <p>• <b>Verificar suas alterações:</b> através dos comandos <em>git status</em>, que exibe informações sobre o estado de arquivos e diretórios na cópia de trabalho e <em>git diff</em>, que exibe as diferenças entre duas revisões ou caminhos.</p>
+            <p>• <b>Possivelmente desfazer algumas alterações:</b> com o comando git revert, que desfaz todas as edições locais.</p>
+            <p>• <b>Resolver conflitos:</b> com o comando <em>git mergetool</em>, que executa ferramenta de resolução de conflitos para resolver conflitos de junção.</p>
+            <p>• <b>Submeter alterações:</b> através do comando <em>git commit</em>¸ que envia as alterações de sua cópia trabalho para o repositório.</p>
+            <p>• <b>Possivelmente propagar suas alterações para outro repositório:</b> através do comando <em>git push</em>, que envia as alterações do repositório local (origem) para outro repositório (destino).
+            </p>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="Licença">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2><u>Licença</u>:</h2>
+            <p class="lead"><p><u>O Subversion</u> (SVN):</p>O Subversion antes seguia os termos da Debian Free Software Guidelines (DFSG), mas com apoio da Apache Software Foudation (ASF), passou a adotar os termos da licença Apache.</p>
+            <p>Contudo, é uma licença de software livre de autoria da ASF, onde ela requer preservação do aviso de direitos autorais e aviso legal, porém, permite o uso de códigos fonte para o desenvolvimento de software proprietário, bem como software livre e open source.</p>
+            <p><u>GIT</u>:</p> O GIT segue os termos de licença General Public License (GPL). A GPL foi criada por Richard Stallman em 27 de setembro de 1983. De acordo com Richard Stallman a principal mudança realizada na segunda versão da licença GPL é a inclusão de uma cláusula chamada por ele de “liberdade ou Morte”. Essa cláusula define que ninguém pode impor restrições a terceiros de distribuir seu software, restringindo a distribuição em forma binária, por exemplo. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Características">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2><u>Características</u>:</h2>
+            <p class="lead"><p><u>O Subversion</u>(SVN):<p>• Consegue controlar as alterações realizar na cópia de trabalho que ainda não foram enviadas ao repositório, através do comando <em>svn diff</em>.</p>
+            <p>• Todo <em>commit</em> no Subversion pode ser acompanhado de uma mensagem de <em>log</em>, ou seja, o usuário pode descrever todas as alterações relativas aquele <em>commit</em> em uma mensagem, que fica gravado no repositório. Mas o subversion também permite o <em>commit</em> parcial, ou seja, o usuário tem a opção de realizar <em>commit</em> selecionado apenas o diretório desejado.</p>
+            <p>• O Subversion permite apenas uma mensagem de <em>log</em> para todo o conjunto de mudança, não permitindo que cada arquivo possua uma mensagem de <em>log</em> particular.</p>
+            <p>• O Subversion oferece ao usuário a opção de não somente realizar um <em>check out</em> no repositório como um todo, mas também um <em>check out</em> parcial, ou seja, o usuário tem a opção de realizar um diretório.</p>
+            <p><u>GIT</u>:</p><p>• Com o GIT é possível controlar as alterações realizadas na cópia de trabalho que ainda não foram enviadas ao repositório. Isso é feito através do comando <em>git diff</em>, assim o usuário pode analisar suas alterações com cautela antes de enviá-las ao repositório.</p>
+            <p>• É possível também ignorar alterações indesejadas, alocando-as em um diretório isolado, através do comando <em>git stash</em>.</p>
+            <p>• Como no Subversion, no GIT todo <em>commit</em> pode ser acompanhado de uma mensagem de <em>log</em>, ou seja, o usuário pode descrever todas as alterações relativas aquele <em>commit</em> em uma mensagem, que fica gravada no repositório.</p> 
+            <p>• O GIT também permite apenas uma mensagem de <em>log</em> para todo o conjunto de mudanças, não permitindo que cada arquivo do conjunto de mudanças possua uma mensagem de <em>log</em> particular.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Interface">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2><u>Interface</u>:</h2>
+            <p class="lead"><p><u>O Subversion</u> (SVN):</p>O Subversion é uma ferramenta de controle de versões com maior número de clientes baseados em interface web. Geralmente, esses clientes possibilitam que o usuário navegue através de árvores e das várias revisões dos arquivos, além de possibilitar a execução de <em>diffs</em>, o trabalho com o formato rss, a execução de <em>check outs</em>, entres outras funcionalidades. São exemplos de clientes de interface web para o Subversion as ferramentas ViewVC, SVN::Web, WebSVN, ViewSVN, mod_svn_view, Chora, Trac, SVN::RaWeb::Light, SVN Browser, Insurrection e perl_svn.</p>
+            <p>Existem também muitos clientes que trabalham em modo gráfico, ou Graphical User Interface (GUIs), para Subversion. São exemplos de GUIs para Subversion as ferramentas RapidSVN, que é multiplataforma, TortoiseSVN, que funciona como um <em>pluing</em> in para Windows Explorer e Jsvn, desenvolvido com API Java para interface gráficas Swing. </p>
+            <p><u>GIT</u>:</p><p> Apesar de o GIT ter sido desenvolvido visando um bom desempenho para o sistema operacional Linux, e muitos usuários de Linux preferiam usá-lo através de uma linha de comando, existem bons clientes que trabalham em modo gráfico, ou GUIs, disponíveis para a ferramenta. O cliente Gitk já acompanha a distribuições do GIT. Estão disponíveis também, bons clientes como o Qgit, Git-guie o TortoiseGit, que foi desenvolvido para usuários do Windows.</p>
+            <p>O GIT não possui clientes baseados em interface em web como o Subversion, porém sua distribuição já possui em cliente, o Gitweb. O Gitweb foi desenvolvido na linguagem Perl e permite navegar pelos diretórios através de revisão desejadas, ver o conteúdo dos arquivos, verificar o <em>log</em> de diferentes ramos e examinar os <em>commit</em>. Além disso, ele trabalha com feeds em rss ou no formato atom. Outro bom cliente de interface web para o GIT é o Cgit, que possui uma interface melhor do que a do gitweb e disponibiliza ainda mais detalhes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Vantagens e Desvantagens">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2><u>Vantagens e Desvantagens</u>:</h2>
+            <p class="lead"><p><u>O Subversion</u> (SVN):</p><p><b>Vantagens</b>:</p>
+            • Permite travar arquivos impedindo atualizações.<br />
+            • Controle de privilégios de acesso mais sofisticados.
+            • <em>Commits atômicos</em>.<br />
+            • Conceito de revisão.<br />
+            <p><b>Desvantagens</b>:</p>
+            • Depedente de um servidor. Em caso de pane no servidor é impossível fazer um <em>update</em> ou <em>commit</em>.<br />
+            • A cada commit é necessário se conectar ao servidor o que torna o sistema lento.<br />
+            • Caso um arquivo seja renomeado seu histórico de alterações é perdido.<br />
+            • Difícil de se usar com grandes equipes ou equipes remotas.<br />
+            <p><u>GIT</u>:</p><p><b>Vantagens</b>:</p>
+            • Em quase tudo é executado mais rápido, em alguns casos muito mais rápido por ser otimizado para funcionar pela internet.<br />
+            • É muito mais fácil administrar diversas fontes de atualizações.<br />
+            • Permite trabalhar confortavelmente sem perder nenhuma funcionalidade e informação sem estar conectado ao servidor central (que pode e frequentemente é usado). Ele tem mais metadados locais.<br />
+            • A história do projeto pode ser modificada.
+            • Possui uma <em>staging area</em> que permite selecionar partes que deseja enviar para um repositório.<br />
+            <p><b>Desvantagens</b>:</p>
+            • GIT não oferece ao usuário a opção de realizar um <em>check out</em> principal.<br />
+            • Curva de aprendizado média.<br />
+            • Para quem prefere ferramenta gráfica pra tudo, deixa a desejar.<br />
+          </div>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
